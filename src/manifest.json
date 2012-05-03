@@ -1,0 +1,7 @@
+{
+ "name": "previousnext",
+ "description": "Navigate Next and Previous Links using keyboard shortcuts",
+ "version": "1",
+ "permissions": ["tabs", "http://*/*"],
+ "content_scripts": [{"matches": ["http://*/*"],"js": ["inject.js"]}]
+}
